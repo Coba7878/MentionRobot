@@ -9,11 +9,11 @@ _**This bot can mention members upto 10,000 in groups and can mention members up
 - Telegram Library: Telethon.
 
 ### 🚀 Deploy to heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Zaen-ubot/Mentionbot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/RyuuXS/MentionRobot)
 
 ### 🎯 Credits and Other
-- [Zaen](https://github.com/Zaen-ubot) for this Project ;)
+- [SHIN](https://github.com/RyuuXS) Ilove my Project ✨
 
 **Do not forget to follow me on Github ✌️**
 
-*Made with ✨ by [Zaen](https://t.me/TeleUdahRusak). <br />
+*Made with ✨ by [SHIN](https://t.me/RYUUSHINNI). <br />
