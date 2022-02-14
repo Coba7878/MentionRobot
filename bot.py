@@ -25,7 +25,7 @@ async def start(event):
                    )
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**Help Menu of MentionAllBot**\n\nCommand: /mentionall\n__You can use this command with text what you want to mention others.__\n`Example: /oll Jangan Lupa Sholat!`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\nFollow [SHIN](https://github.com/RyuuXS) on Github"
+  helptext = "**Help Menu of MentionAllBot**\n\nCommand: /all\n__You can use this command with text what you want to mention others.__\n`Example: /all Jangan Lupa Sholat!`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\nFollow [SHIN](https://github.com/RyuuXS) on Github"
   await event.reply(helptext,
                     buttons=(
                       [Button.url('⚜️ Channel', 'https://t.me/Belajarbersamaryuu'),
@@ -34,7 +34,7 @@ async def help(event):
                     link_preview=False
                    )
   
-@client.on(events.NewMessage(pattern="^/mentionall ?(.*)"))
+@client.on(events.NewMessage(pattern="^/all ?(.*)"))
 async def mentionall(event):
   if event.is_private:
     return await event.respond("__This command can be use in groups and channels!__")
