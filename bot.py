@@ -16,26 +16,26 @@ client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("__**Saya Adalah MentionAll Bot**, Saya Dapat Membantu Anda Mention Semua Member 👻\nClick **/help** Untuk Infromasi Lebih Lanjut__\n\n Maintaned By @Mafia_TobaTZ",
+  await event.reply("__**Saya Adalah MentionAll Bot**, Saya Dapat Membantu Anda Mention Semua Member 👻\nClick **/help** Untuk Infromasi Lebih Lanjut__\n\n Maintaned By @RyuuShinni",
                     buttons=(
-                      [Button.url('📱 Channel', 'https://t.me/Lunatic0de'),
-                      Button.url('↗️ Group', 'https://t.me/SharingUserbot')]
+                      [Button.url('⚜️ Channel', 'https://t.me/Belajarbersamaryuu'),
+                      Button.url('👑 OWNER', 'https://t.me/RYUUSHINNI')]
                     ),
                     link_preview=False
                    )
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**Help Menu of MentionAllBot**\n\nCommand: /mentionall\n__You can use this command with text what you want to mention others.__\n`Example: /mentionall Good Morning!`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\nFollow [Zaen](https://github.com/Zaen-ubot) on Github"
+  helptext = "**Help Menu of MentionAllBot**\n\nCommand: /mentionall\n__You can use this command with text what you want to mention others.__\n`Example: /mentionall Jangan Lupa Sholat!`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\nFollow [SHIN](https://github.com/RyuuXS) on Github"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('📱 Channel', 'https://t.me/Lunatic0de'),
-                      Button.url('↗️ Group', 'https://t.me/SharingUserbot')]
+                      [Button.url('⚜️ Channel', 'https://t.me/Belajarbersamaryuu'),
+                      Button.url('👑 Groub', 'https://t.me/helpforRYUU')]
                     ),
                     link_preview=False
                    )
   
-@client.on(events.NewMessage(pattern="^/mentionall ?(.*)"))
-async def mentionall(event):
+@client.on(events.NewMessage(pattern="^/all ?(.*)"))
+async def all(event):
   if event.is_private:
     return await event.respond("__This command can be use in groups and channels!__")
   
