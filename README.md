@@ -9,7 +9,7 @@ _**This bot can mention members upto 10,000 in groups and can mention members up
 - Telegram Library: Telethon.
 
 ### 🚀 Deploy to heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/RyuuXS/MentionRobot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Coba7878/MentionRobot)
 
 ### 🎯 Credits and Other
 - [SHIN](https://github.com/RyuuXS) Ilove my Project ✨
